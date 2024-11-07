@@ -53,17 +53,13 @@ chrome.action.onClicked.addListener((tab) => {
       }
 
       function redirectToPlaylist(channelID) {
-        if (channelID) {
-          try {
-            const playlistURL = `https://www.youtube.com/playlist?list=UU${channelID.substr(2)}`;
-            console.log(`Redirecting to playlist: ${playlistURL}`);
-            window.location.href = playlistURL;
-          } catch (error) {
-            console.error('Error generating playlist URL:', error);
-          }
-        } else {
-          console.error('No channel ID available. Cannot redirect to playlist.');
+        try {
+          const playlistURL = `https://www.youtube.com/playlist?list=UU${channelID.substr(2)}`;
+          window.location.href = playlistURL;
+        } catch (error) {
+          console.error('Error generating playlist URL:', error);
         }
+
       }
 
       getChannelID()
@@ -71,7 +67,7 @@ chrome.action.onClicked.addListener((tab) => {
           if (channelID) {
             redirectToPlaylist(channelID);
           } else {
-            console.error('No channel ID found.');
+            console.error('Channel ID found.');
           }
         })
         .catch(error => {
