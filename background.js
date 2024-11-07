@@ -67,7 +67,7 @@ chrome.action.onClicked.addListener((tab) => {
           if (channelID) {
             redirectToPlaylist(channelID);
           } else {
-            console.error('Channel ID found.');
+            console.error('Channel ID not found.');
           }
         })
         .catch(error => {
