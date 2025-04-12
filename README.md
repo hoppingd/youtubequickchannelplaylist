@@ -4,4 +4,4 @@
  Instructions:
  Click the extension icon while on a video page or channel page.
 
-This extension is available for download on the [Chrome Web Store](https://chromewebstore.google.com/detail/channel-playlists-for-you/nfmbnooehmepkbcpalefdmonflkfjglf?authuser=0&hl=en&pli=1).
+This extension is available for download on the [Chrome Web Store](https://chromewebstore.google.com/detail/channel-playlists-for-you/nfmbnooehmepkbcpalefdmonflkfjglf?authuser=0&hl=en&pli=1) and [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/channel-playlists-for-you/pbojmeocfpiopgjbodhddlagebefbmjb).
