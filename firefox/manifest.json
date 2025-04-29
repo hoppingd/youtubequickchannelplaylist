@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Channel Playlists for YouTube",
+  "description": "A lightweight extension for YouTube that redirects the browser to a playlist of all a channel's videos.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "host_permissions": [
+    "http://www.youtube.com/*",
+    "https://www.youtube.com/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d1c34a5e-6b27-4d42-88d1-ff2c7a1bd473}"
+    }
+  }
+}

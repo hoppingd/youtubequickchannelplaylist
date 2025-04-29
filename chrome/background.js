@@ -54,7 +54,7 @@ chrome.action.onClicked.addListener((tab) => {
 
       function redirectToPlaylist(channelID) {
         try {
-          const playlistURL = `https://www.youtube.com/playlist?list=UU${channelID.substr(2)}`;
+          const playlistURL = `https://www.youtube.com/playlist?list=UULF${channelID.substr(2)}`;
           window.location.href = playlistURL;
         } catch (error) {
           console.error('Error generating playlist URL:', error);

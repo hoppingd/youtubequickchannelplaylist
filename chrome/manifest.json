@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Channel Playlists for Youtube",
-  "description": "A lightweight chrome extension for Youtube that redirects the browser to a playlist of all a channel's videos",
-  "version": "1.0",
+  "name": "Channel Playlists for YouTube",
+  "description": "A lightweight extension for YouTube that redirects the browser to a playlist of all a channel's videos.",
+  "version": "1.2",
   "permissions": [
     "activeTab",
     "scripting"
