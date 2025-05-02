@@ -3,3 +3,7 @@
 
  Instructions:
  Click the extension icon while on a video page or channel page.
+
+ [Firefox](https://addons.mozilla.org/en-US/firefox/addon/channel-playlists-for-youtube/)
+[Chrome](https://chromewebstore.google.com/detail/channel-playlists-for-you/nfmbnooehmepkbcpalefdmonflkfjglf?authuser=0&hl=en)
+[Edge](https://microsoftedge.microsoft.com/addons/detail/channel-playlists-for-you/pbojmeocfpiopgjbodhddlagebefbmjb)
