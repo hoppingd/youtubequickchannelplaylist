@@ -1,0 +1,75 @@
+<!-- options.html -->
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<html>
+<head>
+  <title>Channel Playlists for YouTube</title>
+  <link rel="icon" type="image/png" href="icon128.png">
+  <style>
+    .logo {
+        width:32px;
+        height:32px;
+    }
+    body {
+        font-size: 16px
+    }
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: #323232;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+    .subtitle {
+        font-size:12px;
+        margin-top: 4px;
+        margin-bottom: 24px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .footer {
+      font-size: 14px;
+      padding-top: 24px;
+    }
+
+    .footer a {
+      color: #000000;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .bar {
+        margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="icon128.png" alt="Extension Logo" class="logo">
+    <h1>Extension Options</h1>
+  </div>
+  <div class="subtitle"><i>Channel Playlists for YouTube</i></div>
+  <label>
+    <input type="checkbox" id="shortsToggle">
+    Include Shorts and Livestreams
+  </label>
+  <div class="footer">
+    <a href="https://chromewebstore.google.com/detail/channel-playlists-for-you/nfmbnooehmepkbcpalefdmonflkfjglf" target="_blank">Chrome</a>
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/channel-playlists-for-youtube/" target="_blank">Firefox</a>
+    <a href="https://microsoftedge.microsoft.com/addons/detail/channel-playlists-for-you/pbojmeocfpiopgjbodhddlagebefbmjb" target="_blank">Edge</a>
+    <span class="bar">|</span>
+    <span>Thank you for using this extension! &nbsp;😃</span>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
